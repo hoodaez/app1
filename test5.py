@@ -1,5 +1,3 @@
-from math import e
-
 
 number= int(input (" enter your number"))
 
