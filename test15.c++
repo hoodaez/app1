@@ -3,22 +3,18 @@
 using namespace std;
 
 struct emai_addres
-{ 
+{
     string email_home;
     string email_work;
     string email_other;
     string email_friends;
     string email_family;
     string email_school;
-
-
 };
 
-
-
-
 // Structure for storing phone numbers
-struct PhoneNumbers {
+struct PhoneNumbers
+{
     string phone_home;
     string phone_work;
     string phone_cell;
@@ -30,7 +26,8 @@ struct PhoneNumbers {
 };
 
 // Structure for storing person details
-struct PersonDetails {
+struct PersonDetails
+{
     string name;
     int age;
     string city;
@@ -41,7 +38,8 @@ struct PersonDetails {
     bool married;
 };
 
-int main() {
+int main()
+{
     // Creating instances of PersonDetails
     PersonDetails person1, person2, person3;
 
@@ -49,9 +47,7 @@ int main() {
     PhoneNumbers phone_numbers1, phone_numbers2, phone_numbers3;
 
     // Creating instances of EmailAddresses
-    emai_addres email_addres1,email_addres2,email_addres3;
-
-
+    emai_addres email_addres1, email_addres2, email_addres3;
 
     // Initializing person1
     person1.name = "hoodaezz";
@@ -73,7 +69,7 @@ int main() {
     phone_numbers1.phone_school = "0555555561";
     phone_numbers1.phone_other_country = "0555555562";
 
-// Initializing  mai_addres1
+    // Initializing  mai_addres1
     email_addres1.email_home = "hoodaezz@gmail.com";
     email_addres1.email_work = "ezz@gmail.com";
     email_addres1.email_other = "ahmed@gmail.com";
@@ -81,18 +77,12 @@ int main() {
     email_addres1.email_family = "mohammed@gmail.com";
     email_addres1.email_school = "ahmed@gmail.com";
 
-
-
-
-
-
-
     // Initializing person2
     person2.name = "ahmed ezz";
     person2.age = 60;
     person2.city = "alexcandya";
     person2.country = "Egypt";
-    person2.month_salary = 20000; 
+    person2.month_salary = 20000;
     person2.year_salary = person2.month_salary * 12;
     person2.gender = 'M';
     person2.married = true;
@@ -107,16 +97,13 @@ int main() {
     phone_numbers2.phone_school = "0655555561";
     phone_numbers2.phone_other_country = "0655555562";
 
- //Initializing  mai_addres2
+    // Initializing  mai_addres2
     email_addres2.email_home = "ahmed@gmail.com";
     email_addres2.email_work = "ezz@gmail.com";
     email_addres2.email_other = "mostfa@gmail.com";
     email_addres2.email_friends = "ahmed@gmail.com";
     email_addres2.email_family = "mohammed@gmail.com";
     email_addres2.email_school = "ahmed@gmail.com";
-
-
-
 
     // Initializing person3
     person3.name = "mostfa ezz";
@@ -138,20 +125,13 @@ int main() {
     phone_numbers3.phone_school = "0755555561";
     phone_numbers3.phone_other_country = "0755555562";
 
- //Initializing  mai_addres3
+    // Initializing  mai_addres3
     email_addres3.email_home = "mostfa@gmail.com";
     email_addres3.email_work = "ezz@gmail.com";
     email_addres3.email_other = "ahmed@gmail.com";
     email_addres3.email_friends = "ahmed@gmail.com";
     email_addres3.email_family = "mohammed@gmail.com";
     email_addres3.email_school = "ahmed@gmail.com";
-
-
-
-
-
-
-
 
     // Displaying details of person1 and their phone numbers
     cout << "Person 1 Details:" << endl;
@@ -185,6 +165,7 @@ int main() {
     cout << "  Family: " << email_addres1.email_family << endl;
     cout << "  School: " << email_addres1.email_school << endl;
     cout << "----------------------------------------" << endl;
+
     // Similarly, display details for person2 and person3...
     // This code can be extended to handle more people, email addresses, and phone numbers.
     // The use of classes and objects makes the code more modular and easier to maintain.
@@ -209,64 +190,46 @@ int main() {
     // For example, if the details of a person or an email address were to change, you would only need to modify the relevant class and object.
     // This improves code reusability and makes the code easier to maintain and debug.
     // For further details on classes and objects in C++, refer to the C++ documentation or online resources.
-}
-    // This code can be extended to handle more people, email addresses, and phone numbers.
-    // The use of classes and objects makes the code more modular and easier to maintain.
-    // For example, if the details of a person or an email address were to change, you would only need to modify the relevant class and object.
-    // This improves code reusability and makes the code easier to maintain and debug.
-    // For further details on classes and objects in C++, refer to the C++ documentation or online resources.
-    // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
-    // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-    // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-    // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
-    // Finally, the code assumes that the phone numbers and email addresses are stored in a separate class and object.
-    // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-    // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-    // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
-    // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
-    // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-    // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-    // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
-    // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
-    // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-    // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-    // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
 
-        // This code can be extended to handle more people, email addresses, and phone numbers.
-        // The use of classes and objects makes the code more modular and easier to maintain.
-        // For example, if the details of a person or an email address were to change, you would only need to modify the relevant class and object.
-        // This improves code reusability and makes the code easier to maintain and debug.
-        // For further details on classes and objects in C++, refer to the C++ documentation or online resources.
-        // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
-        // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-        // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-        // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
-        // Finally, the code assumes that the phone numbers and email addresses are stored in a separate class and object.
-        // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-        // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-        // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
-        // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
-        // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
-        // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
-        // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+  // This code can be extended to handle more people, email addresses, and phone numbers.
+ // The use of classes and objects makes the code more modular and easier to maintain.
+ // For example, if the details of a person or an email address were to change, you would only need to modify the relevant class and object.
+ // This improves code reusability and makes the code easier to maintain and debug.
+ // For further details on classes and objects in C++, refer to the C++ documentation or online resources.
+ // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+ // Finally, the code assumes that the phone numbers and email addresses are stored in a separate class and object.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+ // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+ // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
 
+ // This code can be extended to handle more people, email addresses, and phone numbers.
+ // The use of classes and objects makes the code more modular and easier to maintain.
+ // For example, if the details of a person or an email address were to change, you would only need to modify the relevant class and object.
+  // This improves code reusability and makes the code easier to maintain and debug.
+ // For further details on classes and objects in C++, refer to the C++ documentation or online resources.
+ // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+ // Finally, the code assumes that the phone numbers and email addresses are stored in a separate class and object.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
+ // Note: This code assumes that the phone numbers and email addresses are stored in separate classes and objects.
+ // If the phone numbers and email addresses are stored in the same class or object, you would need to modify the code accordingly.
+ // Also, the code assumes that the email addresses and phone numbers are stored in separate arrays or vectors.
+ // If the email addresses and phone numbers are stored in a single data structure, you would need to modify the code accordingly.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    return 0;
+return 0;
 }
