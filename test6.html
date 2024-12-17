@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test0.css">
+</head>
+<body>
+    <!-- CRUD Application Input -->
+    <div class="crud">
+        <div class="input">
+            <!-- Input for Title -->
+            <input placeholder="Title" type="text" id="title">
+
+            <!-- Price Inputs -->
+            <div class="price">
+                <input onkeyup="gettotal()" type="number" id="price" placeholder="Price">
+                <input onkeyup="gettotal()" type="number" id="taxes" placeholder="Taxes">
+                <input onkeyup="gettotal()" type="number" id="ads" placeholder="Ads">
+                <input onkeyup="gettotal()" type="number" id="discount" placeholder="Discount">
+                <!-- Display Total -->
+                <small id="total">0</small>
+            </div>
+
+            <!-- Other Inputs -->
+            <input placeholder="Count" type="number" id="count">
+            <input placeholder="Category" type="text" id="category">
+
+            <!-- Submit Button -->
+            <button id="submit">Create</button>
+        </div>
+    </div>
+
+    <!-- Search and Output Section -->
+    <div class="output">
+        <div class="searchblock">
+            <!-- Search Input -->
+            <input type="text" id="search" placeholder="Search">
+            <div class="btnsearch">
+                <button id="searchbtn">Search by Title</button>
+                <button id="searchcategory">Search by Category</button>
+            </div>
+        </div>
+
+        <!-- Table to Display Data -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Taxes</th>
+                    <th>Ads</th>
+                    <th>Discount</th>
+                    <th>Total</th>
+                    <th>Category</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example Row -->
+                <tr>
+                    <td>1</td>
+                    <td>SAMSUNG</td>
+                    <td>20000</td>
+                    <td>1000</td>
+                    <td>500</td>
+                    <td>20</td>
+                    <td>21520</td>
+                    <td>Phone</td>
+                    <td><button id="update1">Update</button></td>
+                    <td><button id="delete1">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Link to JavaScript -->
+    <script src="test0.js"></script>
+</body>
+</html>

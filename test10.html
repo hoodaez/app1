@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة متطورة مع تحويل العملات</title>
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test10.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>حاسبة متطورة</h1>
+        <div class="display">
+            <input type="text" id="display" disabled />
+        </div>
+        <div class="buttons">
+            <!-- الأزرار الخاصة بالعمليات الحسابية -->
+            <button class="button" onclick="appendToDisplay('1')">1</button>
+            <button class="button" onclick="appendToDisplay('2')">2</button>
+            <button class="button" onclick="appendToDisplay('3')">3</button>
+            <button class="button" onclick="appendToDisplay('+')">+</button>
+
+            <button class="button" onclick="appendToDisplay('4')">4</button>
+            <button class="button" onclick="appendToDisplay('5')">5</button>
+            <button class="button" onclick="appendToDisplay('6')">6</button>
+            <button class="button" onclick="appendToDisplay('-')">-</button>
+
+            <button class="button" onclick="appendToDisplay('7')">7</button>
+            <button class="button" onclick="appendToDisplay('8')">8</button>
+            <button class="button" onclick="appendToDisplay('9')">9</button>
+            <button class="button" onclick="appendToDisplay('*')">*</button>
+
+            <button class="button" onclick="appendToDisplay('0')">0</button>
+            <button class="button" onclick="appendToDisplay('.')">.</button>
+            <button class="button" onclick="calculate()">=</button>
+            <button class="button" onclick="appendToDisplay('/')">/</button>
+        </div>
+        
+        <div class="currency-converter">
+            <h2>محول العملات</h2>
+            <input type="number" id="currency-input" placeholder="أدخل المبلغ" />
+            <select id="currency-from">
+                <option value="USD">دولار أمريكي</option>
+                <option value="EUR">يورو</option>
+                <option value="EGP">جنيه مصري</option>
+                <!-- إضافة عملات أخرى هنا -->
+            </select>
+            <span>إلى</span>
+            <select id="currency-to">
+                <option value="USD">دولار أمريكي</option>
+                <option value="EUR">يورو</option>
+                <option value="EGP">جنيه مصري</option>
+                <!-- إضافة عملات أخرى هنا -->
+            </select>
+            <button onclick="convertCurrency()">تحويل</button>
+            <p id="conversion-result"></p>
+        </div>
+    </div>
+
+    <script src="G:\vib codeing\thml\java scrpt\test10.js"></script>
+</body>
+</html>

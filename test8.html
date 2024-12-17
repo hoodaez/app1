@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- إعداد الصفحة -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آلة حاسبة</title>
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test8.css">
+</head>
+<body>
+    <!-- العنوان الرئيسي -->
+    <h1>آلة حاسبة بسيطة</h1>
+
+    <!-- حاوية الآلة الحاسبة -->
+    <div class="calculator">
+        <!-- شاشة عرض النتائج -->
+        <input type="text" id="display" disabled>
+
+        <!-- أزرار الآلة الحاسبة -->
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()">←</button>
+            <button onclick="appendCharacter('%')">%</button>
+            <button onclick="appendCharacter('/')">÷</button>
+
+            <button onclick="appendCharacter('7')">7</button>
+            <button onclick="appendCharacter('8')">8</button>
+            <button onclick="appendCharacter('9')">9</button>
+            <button onclick="appendCharacter('*')">×</button>
+
+            <button onclick="appendCharacter('4')">4</button>
+            <button onclick="appendCharacter('5')">5</button>
+            <button onclick="appendCharacter('6')">6</button>
+            <button onclick="appendCharacter('-')">-</button>
+
+            <button onclick="appendCharacter('1')">1</button>
+            <button onclick="appendCharacter('2')">2</button>
+            <button onclick="appendCharacter('3')">3</button>
+            <button onclick="appendCharacter('+')">+</button>
+
+            <button onclick="appendCharacter('0')">0</button>
+            <button onclick="appendCharacter('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+    <!-- ربط ملف JavaScript -->
+    <script src="G:\vib codeing\thml\java scrpt\test8.js"></script>
+</body>
+</html>
