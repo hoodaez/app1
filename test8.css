@@ -1,0 +1,63 @@
+/* تنسيق الصفحة */
+body {
+    font-family: Arial, sans-serif; /* تحديد نوع الخط */
+    display: flex; /* استخدام تصميم مرن */
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    align-items: center; /* توسيط العناصر أفقيًا */
+    justify-content: center; /* توسيط العناصر عموديًا */
+    height: 100vh; /* جعل الصفحة تمتد لملء الشاشة */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    background-color: #f0f2f5; /* لون الخلفية */
+}
+
+/* تنسيق العنوان */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* تنسيق الحاوية */
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+}
+
+/* تنسيق شاشة العرض */
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* تنسيق الأزرار */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة للأزرار */
+    gap: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003d82;
+}

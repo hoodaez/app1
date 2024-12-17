@@ -1,0 +1,31 @@
+/* جعل الصفحة تأخذ التنسيق الأساسي */
+body {
+    font-family: Arial, sans-serif; /* تحديد نوع الخط */
+    text-align: center; /* توسيط النصوص */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الحشو */
+    background-color: #f0f0f0; /* لون الخلفية الافتراضي */
+}
+
+/* تنسيق العنوان */
+h1 {
+    color: #333; /* لون النص */
+    margin-top: 50px; /* مسافة من الأعلى */
+}
+
+/* تنسيق الزر */
+button {
+    background-color: #007bff; /* لون خلفية الزر */
+    color: white; /* لون النص داخل الزر */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* حجم الزر */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer; /* تغيير المؤشر إلى يد عند المرور فوقه */
+    border-radius: 5px; /* جعل الزوايا مستديرة */
+    margin-top: 20px; /* مسافة من الأعلى */
+}
+
+/* تغيير مظهر الزر عند تمرير الفأرة */
+button:hover {
+    background-color: #0056b3; /* تغيير لون الخلفية عند التمرير */
+}
