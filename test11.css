@@ -1,0 +1,64 @@
+/* إعداد الخطوط والألوان */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4c6ef5, #15aabf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* تصميم الآلة الحاسبة */
+  .calculator {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+  }
+  
+  /* شاشة العرض */
+  .display {
+   
+    background: #222;
+    color: #0ef;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 20px;
+    height: 80px;
+    box-sizing: border-box;
+  }
+  
+  /* الأزرار */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #ccc;
+  }
+  
+  .btn {
+    background: #f7f7f7;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* تنسيق الأزرار عند التفاعل */
+  .btn:hover {
+    background: #ddd;
+  }
+  
+  .equal-btn {
+    grid-column: span 2;
+    background: #4c6ef5;
+    color: #fff;
+  }
+  
+  .equal-btn:hover {
+    background: #3b5bd6;
+  }
+  

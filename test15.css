@@ -1,0 +1,78 @@
+/* إعدادات عامة */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* نوع الخط */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الحشوات الافتراضية */
+    background-color: #000000; /* لون الخلفية */
+    color: rgb(114, 11, 11); /* لون النص */
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #007BFF; /* لون خلفية الرأس */
+    color: white; /* لون النص */
+    text-align: center; /* محاذاة النص للوسط */
+    padding: 1em; /* حشوات الرأس */
+}
+
+/* قسم المنتجات */
+#products {
+    padding: 2em; /* حشوات القسم */
+}
+
+.product {
+    border: 1px solid #ddd; /* إطار المنتج */
+    border-radius: 8px; /* زوايا مستديرة */
+    padding: 1em; /* حشوات المنتج */
+    margin-bottom: 1em; /* مسافة بين المنتجات */
+    background-color: white; /* خلفية المنتج */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+.product h3 {
+    margin: 0; /* إزالة الهوامش حول العنوان */
+}
+
+button {
+    background-color: #28a745; /* لون الزر */
+    color: white; /* لون النص */
+    border: none; /* إزالة الإطار */
+    padding: 0.5em 1em; /* حشوات الزر */
+    border-radius: 5px; /* زوايا مستديرة */
+    cursor: pointer; /* تغيير المؤشر عند التمرير */
+}
+
+button:hover {
+    background-color: #218838; /* لون الزر عند التمرير */
+}
+
+/* قسم الإعلانات */
+#advertisement {
+    padding: 2em; /* حشوات الإعلان */
+    text-align: center; /* محاذاة النص للوسط */
+    background-color: #3d2f05; /* لون خلفية الإعلان */
+    color: #dbcbcb; /* لون النص */
+}
+
+/* ذيل الصفحة */
+footer {
+    text-align: center; /* محاذاة النص للوسط */
+    background-color: #333; /* لون خلفية الذيل */
+    color: rgb(231, 217, 217); /* لون النص */
+    padding: 1em; /* حشوات الذيل */
+
+}
+.p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+}
