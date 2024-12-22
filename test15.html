@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- تحديد الترميز المستخدم للصفحة -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- جعل الصفحة متجاوبة مع جميع الأجهزة -->
+    <title>Store Management</title> <!-- عنوان الصفحة -->
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test15.css "> <!-- ربط ملف CSS خارجي -->
+    <script src="script.js" defer></script> <!-- ربط ملف JavaScript وتأخير تنفيذه حتى تحميل الصفحة -->
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1> <!-- عنوان المتجر -->
+    </header>
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <!-- قائمة المنتجات -->
+            <div class="product">
+                <h3>Laptop</h3>
+                <p>Price: $1000</p>
+                <p>Stock: <span class="stock">10</span></p>
+                <button onclick="buyProduct('Laptop')">Buy Now</button> <!-- زر الشراء -->
+            </div>
+            <div class="product">
+                <h3>Smartphone</h3>
+                <p>Price: $700</p>
+                <p>Stock: <span class="stock">20</span></p>
+                <button onclick="buyProduct('Smartphone')">Buy Now</button> <!-- زر الشراء -->
+            </div>
+        </section>
+        <section id="advertisement">
+            <h2>Special Offers</h2>
+            <p>Buy 1 Get 1 Free on all accessories!</p> <!-- قسم الإعلانات -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Store. All rights reserved.</p> <!-- ذيل الصفحة -->
+    </footer>
+
+</body>
+    <script src="G:\vib codeing\thml\java scrpt\test15.js"></script>
+
+
+</html>
